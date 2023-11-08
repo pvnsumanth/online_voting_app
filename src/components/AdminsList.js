@@ -25,6 +25,7 @@ function AdminsList(){
         <div>
             <AdminNav/>
             <Link to={"/Admin/AddAdmin/"+id}><button class="mx-5 mt-5 btn " style={{backgroundColor:"rgb(43,24,155)",color:"white"}}>Add A Admin</button></Link>
+    <div style={{overflowX:"auto"}}>
             <table  class="container table table-bordered mt-3">
             <thead class="table-info ">
                 <tr>
@@ -43,6 +44,7 @@ function AdminsList(){
             </tbody>
             
         </table>
+    </div>
         </div>
         
     )
