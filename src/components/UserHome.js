@@ -55,14 +55,17 @@ function UserHome() {
               <div style={{ border: "1px solid #D0D0D0",borderRadius:"7px",backgroundColor:"#D0D0D0	" }}>
                 <p style={{padding:"1vh 0vh 0vh 1vh",fontFamily:"serif",fontSize:"3vh"}}>{userData.Id}</p>
               </div>
-
-              <p style={{paddingLeft:"0.8vh",fontFamily:"serif",fontWeight:"bolder",fontSize:"3vh"}} className="mt-3">Phone Number</p>
+                <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
+                    <p style={{paddingLeft:"0.8vh",fontFamily:"serif",fontWeight:"bolder",fontSize:"3vh"}} className="mt-3">Phone Number</p>
+              </div>
               <div style={{ border: "1px solid #D0D0D0",borderRadius:"7px",backgroundColor:"#D0D0D0	" }}>
                 <p style={{padding:"1vh 0vh 0vh 1vh",fontFamily:"serif",fontSize:"3vh"}}>{userData.phoneNumber}</p>
               </div>
       </div>
       <div className="col-lg-6 col-md-6">
+        <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
               <p style={{paddingLeft:"0.8vh",fontFamily:"serif",fontWeight:"bolder",fontSize:"3vh"}} className="mt-3">Date of Birth</p>
+      </div>
               <div style={{ border: "1px solid #D0D0D0",borderRadius:"7px",backgroundColor:"#D0D0D0	" }}>
                 <p style={{padding:"1vh 0vh 0vh 1vh",fontFamily:"serif",fontSize:"3vh"}}>{userData.DateOfBirth}</p>
               </div>
