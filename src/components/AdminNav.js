@@ -18,7 +18,7 @@ function AdminNav() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 480) {
         setMenuOpen(false);
       }
     };
@@ -32,12 +32,12 @@ function AdminNav() {
   return (
     <nav className="navbar" style={{ backgroundColor: "rgba(255, 99, 71, 0.2)" }}>
       <div className="nav">
-        {window.innerWidth <= 768 && (
+        {window.innerWidth <= 480 && (
           <div className="menu-button" onClick={handleToggleMenu}>
             ☰
           </div>
         )}
-        {window.innerWidth <= 768 && (
+        {window.innerWidth <= 480 && (
           <div className={`menu-items ${menuOpen ? "show" : ""}`}>
             <Link to={"/Admin/Home/" + id} className="nav-link text-dark">
               Home
@@ -64,7 +64,7 @@ function AdminNav() {
             </Link>
           </div>
         )}
-        {window.innerWidth > 768 && (
+        {window.innerWidth > 480 && (
           <div className="desktop-items">
             <Link to={"/Admin/Home/" + id} className="nav-link text-dark">
               Home
