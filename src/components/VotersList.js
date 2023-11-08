@@ -25,6 +25,7 @@ function VotersList(){
         <div>
             <AdminNav/>
             <Link to={"/Admin/AddVoter/"+id}><button class="mx-5 mt-5 btn " style={{backgroundColor:"rgb(43,24,155)",color:"white"}}>Add A Voter</button></Link>
+    <div style{{overflowX:"auto"}}>
             <table  class="container table table-bordered mt-3">
             <thead class="table-info ">
                 <tr>
@@ -43,6 +44,7 @@ function VotersList(){
             </tbody>
             
         </table>
+    </div>
         </div>
         
     )
