@@ -148,8 +148,8 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }}>
             Admin Name
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0" }}>
-            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh", whiteSpace: "nowrap" }}>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
+            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.name}
             </p>
           </div>
@@ -157,8 +157,8 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
             User Name
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0" }}>
-            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh", whiteSpace: "nowrap" }}>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
+            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.username}
             </p>
           </div>
@@ -166,8 +166,8 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
             Phone Number
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0" }}>
-            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh", whiteSpace: "nowrap" }}>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
+            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.phoneNumber}
             </p>
           </div>
@@ -175,8 +175,8 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
             Email
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0" }}>
-            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh", whiteSpace: "nowrap" }}>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
+            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.email}
             </p>
           </div>
@@ -184,8 +184,8 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3 ">
             Address
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0" }} className="mb-5">
-            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh", whiteSpace: "nowrap" }}>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }} className="mb-5">
+            <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.address}
             </p>
           </div>
@@ -203,4 +203,3 @@ function AdminProfile() {
 }
 
 export default AdminProfile;
-
