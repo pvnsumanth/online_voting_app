@@ -16,7 +16,7 @@ function AdminProfile() {
 
   useEffect(() => {
     if (id) {
-      fetch(`http://localhost:3000/AdminsRoute/get-admin/${id}`)
+      fetch(`https://online-voting-app-backend.onrender.com/AdminsRoute/get-admin/${id}`)
         .then((response) => response.json())
         .then((data) => {
           if (data) { 
