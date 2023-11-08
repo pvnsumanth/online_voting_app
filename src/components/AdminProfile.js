@@ -132,7 +132,6 @@ function AdminProfile() {
   return (
     <div>
       <AdminNav />
-      <div style={{ backgroundColor: "#FF8976", height: "30vh" }}></div>
       <div style={{ backgroundColor: "rgba(255, 99, 71, 0.2)", height: "20vh" }}></div>
       <div>
         <div className="text-center" style={{ marginTop: "-15vh" }}>
