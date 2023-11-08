@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import AdminNav from "./AdminNav";
-import './AdminNav.css'
+
 function AdminProfile() {
   const location = useLocation();
   const id = location.pathname.split("/").pop();
@@ -54,56 +54,49 @@ function AdminProfile() {
 
       <div className="d-flex mt-2">
         <div className="col-lg-6 col-xl-4 mx-auto">
-          <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
-            <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }}>
-              Admin Name
-            </p>
-          </div>
-          <div className="custom-scrollbar" className="mb-5">
+                 <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
+          <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }}>
+            Admin Name
+          </p>
+                   </div>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.name}
             </p>
           </div>
 
-          <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
-            <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
-              User Name
-            </p>
-          </div>
-          <div className="custom-scrollbar" className="mb-5">
+          <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
+            User Name
+          </p>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.username}
             </p>
           </div>
-
-          <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
-            <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
-              Phone Number
-            </p>
-          </div>
-          <div className="custom-scrollbar" className="mb-5">
+              <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
+          <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
+            Phone Number
+          </p>
+                   </div>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.phoneNumber}
             </p>
           </div>
 
-          <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
-            <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
-              Email
-            </p>
-          </div>
-          <div className="custom-scrollbar" className="mb-5">
+          <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
+            Email
+          </p>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.email}
             </p>
           </div>
 
-          <div style={{ overflowX: "hidden", whiteSpace: "nowrap" }}>
-            <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3 ">
-              Address
-            </p>
-          </div>
-          <div className="custom-scrollbar" className="mb-5">
+          <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3 ">
+            Address
+          </p>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }} className="mb-5">
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.address}
             </p>
@@ -120,5 +113,4 @@ function AdminProfile() {
     </div>
   );
 }
-
-export default AdminProfile;
+export default AdminProfile; 
