@@ -1,0 +1,54 @@
+/* CSS for the responsive menu */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 99, 71, 0.2);
+    font-family:serif;
+    font-weight:bolder;
+    font-size:3vh;
+  }
+  
+  .menu-button {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .menu-items {
+    display: none; 
+  }
+  
+  .menu-items.show {
+    display: flex;
+    flex-direction: column; 
+    top: 50px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .menu-items a {
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu-items a:hover {
+    color: #555;
+  }
+  
+  .desktop-items {
+    display: flex; 
+  }
+  
+  .desktop-items a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .desktop-items a:hover {
+    color: #555;
+  }
+  
+  
+  
