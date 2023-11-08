@@ -53,7 +53,7 @@ function AdminProfile() {
 
 
       <div className="d-flex mt-2">
-        <div className="col-lg-4 mx-auto">
+        <div className="col-lg-5 mx-auto">
               <p style={{paddingLeft:"0.8vh",fontFamily:"serif",fontWeight:"bolder",fontSize:"3vh"}}>Admin Name</p>
               <div style={{ border: "1px solid #D0D0D0",borderRadius:"7px",backgroundColor:"#D0D0D0	" }}>
                 <p style={{padding:"1vh 0vh 0vh 1vh",fontFamily:"serif",fontSize:"2.5vh"}}>{userData.name}</p>
