@@ -248,7 +248,6 @@ function AdminProfile() {
   return (
     <div>
       <AdminNav />
-      <div style={{ backgroundColor: "#FF8976", height: "30vh" }}></div>
       <div style={{ backgroundColor: "rgba(255, 99, 71, 0.2)", height: "20vh" }}></div>
       <div>
         <div className="text-center" style={{ marginTop: "-15vh" }}>
@@ -292,7 +291,7 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3">
             Email
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }}>
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "scroll" }}>
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.email}
             </p>
@@ -301,7 +300,7 @@ function AdminProfile() {
           <p style={{ paddingLeft: "0.8vh", fontFamily: "serif", fontWeight: "bolder", fontSize: "3vh" }} className="mt-3 ">
             Address
           </p>
-          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "hidden" }} className="mb-5">
+          <div style={{ border: "1px solid #D0D0D0", borderRadius: "7px", backgroundColor: "#D0D0D0", overflow: "scroll" }} className="mb-5">
             <p style={{ padding: "1vh 0vh 0vh 1vh", fontFamily: "serif", fontSize: "2.5vh" }}>
               {userData.address}
             </p>
