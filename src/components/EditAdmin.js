@@ -32,7 +32,7 @@ function EditAdmin()
         .then((res)=>{
             if(res.status === 200 && id === "654718d311503067da7ec963"){
                 alert("Record updated successfully")
-                    navigate("/Admin/AdminsList/"+id)
+                navigate("/Admin/AdminsList/"+id)
             }
             else if(res.status === 200 ){
                 alert("Record updated successfully")
