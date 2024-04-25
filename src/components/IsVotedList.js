@@ -28,7 +28,7 @@ function IsVotedList(){
                 <tr>
                     <th class="text-center">Id</th>
                     <th class="text-center">Party Voted</th>
-                    <th class="text-center">Delete</th>
+                   {/* <th class="text-center">Delete</th> */}
                 </tr>
             </thead>
             <tbody className="">
