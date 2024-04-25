@@ -36,7 +36,7 @@ function VotersList(){
                     <th class="text-center">Address</th>
                     <th class="text-center">Date of Birth</th>
                     <th class="text-center">Gender</th>
-                    <th class="text-center">Delete / Edit</th>
+                    <th class="text-center">Delete</th>
                 </tr>
             </thead>
             <tbody >
