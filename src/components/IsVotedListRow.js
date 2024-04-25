@@ -20,9 +20,10 @@ function IsVotedListRow(props)
         <tr class="text-center">
             <td>{Id}</td>
             <td>{PartyVoted}</td>
-            <td class="d-flex justify-content-center">
+            {/* <td class="d-flex justify-content-center">
                 <button onClick={handleClick} class="btn btn-danger">Delete</button>
             </td>
+            */}
         </tr>
     )
 }
