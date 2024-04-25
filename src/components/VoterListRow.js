@@ -26,7 +26,7 @@ function VoterListRow(props)
             <td>{DateOfBirth}</td>
             <td>{Gender}</td>
             <td class="d-flex justify-content-center">
-                <!-- < Link class="text-decoration-none text-light" to={"/Admin/EditVoter/"+_id}><button class="btn btn-success mr-2">Edit</button></Link>&ensp; -->
+                <Link class="text-decoration-none text-light" to={"/Admin/EditVoter/"+_id}><button class="btn btn-success mr-2">Edit</button></Link>&ensp;
                 <button onClick={handleClick} class="btn btn-danger">Delete</button>
             </td>
         </tr>
